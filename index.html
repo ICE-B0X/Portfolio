@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Josiah's Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Import Tailwind CSS via CDN -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-[#F0FDF9]">
+
+    <header class="fixed bg-orange-200 top-10 left-10">
+
+
+    </header>
+
+    <main class="bg-[#F0FDF9] h-full relative mx-10" style="z-index: 1">
+        <div class="main-content max-w-[1200px] my-0 mx-auto">
+            <header class="hmm relative mb-[25vh]">
+                <div class="min-h-screen flex items-center overflow-hidden">    
+                    <div class="w-[600px] pr-6">
+                        <h1 class="text-[#3E3E3E] lg:text-[5rem] text-[4rem]  leading-[5rem]">Hey, my</h1>
+                        <h1 class="text-[#3E3E3E] lg:text-[5rem] text-[4rem]  leading-[5rem]">name is <span class="font-bold text-[#0E6566]">Josiah</span>.</h1>
+                        <h4 class="pt-8 text-[#3E3E3E] text-2xl">
+                            I'm a <span class="font-bold bg-[#C3A6D1]">{web developer}</span> from Ohio. You're welcome to download my resume or take a peek at some of my most recent projects.
+                        </h4>
+                    </div>
+                    <div class="computer pl-12 lg:flex hidden">
+                        <!-- Replace with an actual image or icon for the computer -->
+                        <img src="img/me.svg" alt="Computer" class="w-full h-auto" style="height: 500px; width: auto;">
+                    </div>
+                </div>
+            </header>
+
+            <div class="pb-[250px] flex flex-col lg:flex-row">
+                <div class="flex pt-20 w-full lg:w-[600px] text-left lg:text-right">
+                    <div class="w-full">
+                        <h2 class="text-[#3E3E3E] text-6xl">Who,<span class="font-bold text-[#0E6566]"> Me</span>?</h2>
+                        <p class="pt-4 text-[#3E3E3E]">Skills, experience, education. What all can I do?</p>
+                        <p class="pt-2 pb-6 text-[#3E3E3E]">Download my resume below.</p>
+                        <a href="img/Josiah Greve Resume.pdf" download="Josiah Greve Resume.pdf" class="w-28 h-10">
+                            <button class="w-32 h-10 ugh-test">Resume</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="pl-24 w-full lg:w-[600px] h-[400px] lg:flex hidden">
+                    <div class="me-icon">
+                        <img src="img/resume.svg" alt="Me" style="height: 400px; width: auto;">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- <div class="pb-[250px] flex">
+                <div class="w-[600px] h-[200px]"></div>
+                <div class="flex overflow-hidden">
+                    <div class="w-[750px]">
+                        <h2 class="text-[#3E3E3E]">My Work.</h2>
+                        <p class="py-4 text-[#3E3E3E]">Freelance work, personal projects, and everything in between.</p>
+                        <a href="#projects" class="w-28 h-10 wtf">
+                            <button class="w-28 h-10 ugh-test">project</button>
+                        </a>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="pb-[100px] flex">
+                <div class="flex overflow-hidden">
+                    <div class="w-[750px]">
+                        <h2 class="text-[#3E3E3E] text-6xl font-semibold">My Work.</h2>
+                        <p class="py-4 text-[#3E3E3E]">Below are some of my recent freelance, personal, and hobby projects, which include static websites, React applications, and full-stack web solutions.</p>
+                        <!-- <a href="#projects" class="w-28 h-10 wtf">
+                            <button class="w-32 h-10 ugh-test">download</button>
+                        </a> -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="max-w-[1200px] my-0 mx-auto flex">
+                <div class="flex w-full">
+                    <div class="w-[60%] flex justify-center items-center lg:flex hidden"> <!-- Added flex, justify-center, items-center -->
+                        <div class="me-icon">
+                            <img src="img/lingomatch.svg" alt="Me" style="height: 350px; width: auto;">
+                        </div>
+                    </div>
+                    <div class="flex w-full">
+                        <div class="w-full max-w-[750px]">
+                            <h2 class="text-[#3E3E3E] text-4xl font-semibold">Lingo Match</h2>
+                            <p class="py-4 text-[#3E3E3E] break-words">A coworker asked if I could develop a user-friendly solution for an educational matching game, specifically designed for language learning.</p>
+                            <p class="py-4 text-[#3E3E3E] break-words">The concept is to create an application that allows users to upload a .csv file containing word pairs, which the app would then shuffle and present in a dynamic,
+                                interactive format. This way, users could continuously practice and match words, helping them to reinforce vocabulary in an engaging way.</p>
+                            <p class="py-4 mb-2 text-[#3E3E3E] break-words"><span class="font-semibold">Technology:</span> React, Firebase, NoSql</p>
+                            <a href="https://lingomatch-e11d3.web.app/" target="_blank" class="w-28 h-10 wtf">
+                                <button class="w-32 h-10 ugh-test">LingoMatch</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="w-full h-[1px] bg-zinc-300 my-28"></div>
+            
+            
+            <div class="max-w-[1200px] my-0 mx-auto flex">
+                <div class="flex w-full">
+                    <div class="w-[60%] flex justify-center items-center lg:flex hidden"> <!-- Added flex, justify-center, items-center -->
+                        <div class="me-icon">
+                            <img src="img/calva.svg" alt="Me" style="height: 350px; width: auto;">
+                        </div>
+                    </div>
+                    <div class="flex w-full">
+                        <div class="w-full max-w-[750px]">
+                            <h2 class="text-[#3E3E3E] text-4xl font-semibold">Calvary Community Church</h2>
+                            <p class="py-4 text-[#3E3E3E] break-words">Developed and maintain my local church's website located in North Olmsted, Ohio.</p>
+                            <p class="py-4 mb-2 text-[#3E3E3E] break-words"><span class="font-semibold">Technology:</span> Html, Javscript</p>
+                            <a href="https://www.calvarycommunityohio.com/" target="_blank" class="w-28 h-10 wtf">
+                                <button class="w-32 h-10 ugh-test">Website</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="w-full h-[1px] bg-zinc-300 my-28"></div>
+            
+            
+            <div class="max-w-[1200px] my-0 mx-auto flex">
+                <div class="flex w-full">
+                    <div class="w-[60%] flex justify-center items-center lg:flex hidden"> <!-- Added flex, justify-center, items-center -->
+                        <div class="me-icon">
+                            <img src="img/ai.svg" alt="Me" style="height: 350px; width: auto;">
+                        </div>
+                    </div>
+                    <div class="flex w-full">
+                        <div class="w-full max-w-[750px]">
+                            <h2 class="text-[#3E3E3E] text-4xl font-semibold">American Interiors</h2>
+                            <p class="py-4 text-[#3E3E3E] break-words">Contracted to develop the customer-facing website for American Interiors, collaborating with their design team to create the overall UI and website theme.</p>
+                            <p class="py-4 text-[#3E3E3E] break-words">This site is the development version, and it is currently in the final stages before going live.</p>
+                            <p class="py-4 mb-2 text-[#3E3E3E] break-words"><span class="font-semibold">Technology:</span> Wordpress, CSS</p>
+                            <a href="https://www.calvarycommunityohio.com/" target="_blank" class="w-28 h-10 wtf">
+                                <button class="w-32 h-10 ugh-test">Website</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="w-full h-[1px] bg-zinc-300 my-28"></div>
+            
+            
+            <div class="max-w-[1200px] my-0 mx-auto flex">
+                <div class="flex w-full">
+                    <div class="w-[60%] flex justify-center items-center lg:flex hidden"> <!-- Added flex, justify-center, items-center -->
+                        <div class="me-icon">
+                            <img src="img/yacht.svg" alt="Me" style="height: 350px; width: auto;">
+                        </div>
+                    </div>
+                    <div class="flex w-full">
+                        <div class="w-full max-w-[750px]">
+                            <h2 class="text-[#3E3E3E] text-4xl font-semibold">WorldWide Yachtsmen</h2>
+                            <p class="py-4 text-[#3E3E3E] break-words">Currently developing an enterprise-level MLS solution for boat sales, building upon the work completed by previous developers in hopes to create a far more user-friendly solution.</p>
+                            <p class="py-4 text-[#3E3E3E] break-words">My goal is to transition the front-end of the site to a Nuxt.js solution, replacing the current .NET ecosystem. Currently, I am addressing and resolving a back-end API issue left by the previous development team.</p>
+                            <p class="py-4 mb-2 text-[#3E3E3E] break-words"><span class="font-semibold">Technology:</span> Nuxt.js, Azure, SQL</p>
+                            <a href="https://www.worldwideyachtsman.com/" target="_blank" class="w-28 h-10 wtf">
+                                <button class="w-32 h-10 ugh-test">WWY</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <img src="" alt="">
+            </div>
+
+            <div class="flex flex-col items-center">
+                <!-- Section Title -->
+                <!-- <h2 class="text-3xl font-semibold my-8">Website Redesign: Before and After</h2> -->
+                
+                <p class="mt-12 text-lg max-w-[800px]">
+                    Below are screenshots from the current development site, showcasing UI design improvements and highlighting the enhanced boat search functionality.
+                </p>
+                <!-- Before and After Images -->
+                <div class="flex space-x-8 mt-8">
+                    <!-- Before Image -->
+                    <!-- Optional Description -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold bitter mb-4">Before</h3>
+                        <img src="img/ww11.png" alt="Before Redesign" class="w-[400px] h-auto shadow-lg border rounded-md">
+                    </div>
+                    
+                    <!-- After Image -->
+                    <div class="text-center">
+                        <h3 class="text-xl font-semibold bitter mb-4">After</h3>
+                        <img src="img/ww12.png" alt="After Redesign" class="w-[400px] h-auto shadow-lg border rounded-md">
+                    </div>
+                </div>
+
+                <div class="flex space-x-8 mt-14">
+                    <!-- Before Image -->
+                    <!-- Optional Description -->
+                    <div class="text-center">
+                        <!-- <h3 class="text-xl font-semibold bitter">Before</h3> -->
+                        <img src="img/ww21.png" alt="Before Redesign" class="w-[400px] h-auto shadow-lg border rounded-md">
+                    </div>
+                    
+                    <!-- After Image -->
+                    <div class="text-center">
+                        <!-- <h3 class="text-xl font-semibold bitter">After</h3> -->
+                        <img src="img/ww22.png" alt="After Redesign" class="w-[400px] h-auto shadow-lg border rounded-md">
+                    </div>
+                </div>
+
+                <div class="flex space-x-8 mt-14">
+                    <!-- Before Image -->
+                    <!-- Optional Description -->
+                    <div class="text-center">
+                        <!-- <h3 class="text-xl font-semibold bitter">Before</h3> -->
+                        <img src="img/ww31.png" alt="Before Redesign" class="w-[400px] h-auto shadow-lg border rounded-md">
+                    </div>
+                    
+                    <!-- After Image -->
+                    <div class="text-center">
+                        <!-- <h3 class="text-xl font-semibold bitter">After</h3> -->
+                        <img src="img/ww32.png" alt="After Redesign" class="w-[400px] h-auto shadow-lg border rounded-md">
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="mt-[250px] pb-[25px] flex justify-center items-center text-sm text-zinc-400">
+                ©2025 Josiah Greve
+            </div>
+
+        </div>
+    </main>
+
+</body>
+
+</html>
